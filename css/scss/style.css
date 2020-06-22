@@ -55,7 +55,8 @@ table {
 *,
 *::after,
 *::before {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .grid-1 {
@@ -220,3 +221,4 @@ table {
   display: table;
   clear: both;
 }
+/*# sourceMappingURL=style.css.map */
